@@ -3,27 +3,43 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1%;
   pointer-events: none;
 }
-
+.logoarea{display: flex; flex-direction: column;}
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-logo { border-radius: 50%;
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navbar{background-color: rgb(255, 0, 0);
+        display: grid;
+        grid-template-columns:2% 50% 6% 38% 2% ;
+        justify-content: space-between;
+}
+.textzone {height: 40px;}
+.navbar button{width: 80px; height: 40px;
+  background-color:rgb(255, 0, 0);
+  border-style: none;        
+}
+.navbar button :hover {background-color:rgb(255, 255, 253);} 
+.addtaskbtn{width: 60px;}
+.App {
+  background-color: #1c1919;
+  
+  
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color :white;
+  height: 900px;
+  
 }
 
+.btnserie button{ color:aliceblue ;padding-left: 14px; padding-right: 14px;border-radius: 40%;;background-color:rgba(0, 0, 0, 0.115);border-style: none;
+}
 .App-link {
   color: #61dafb;
 }
